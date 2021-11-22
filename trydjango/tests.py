@@ -1,3 +1,4 @@
+"""
 import os
 from django.conf import settings
 from django.contrib.auth.password_validation import validate_password
@@ -11,3 +12,4 @@ class TryDjangoConfigTest(TestCase):
         except Exception as e:
                 msg = f'Bad Secret Key {e.messages}'
                 self.fail(e)
+"""
